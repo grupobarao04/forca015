@@ -1,38 +1,36 @@
 .palavra-oculta {
-     font-size:2em;
-     letter-spacing: 0.5em;
+    font-size: 2em;
+    letter-spacing: 0.5em;
 }
 .letras-erradas {
-    margins-top:10px;
+    margin-top: 10px;
 }
-.forca  {
-     height: 200px;
-     width: 150px;
-     background-color:  #00f000;
-     margin: 20px auto;
-     position: relative;
+.forca {
+    height: 200px;
+    width: 150px;
+    background-color: #f3f3f3;
+    margin: 20px auto;
+    position: relative;
 }
-.forca .parte{
+.forca .parte {
     position: absolute;
     background-color: #333;
 }
-.cabeça {
+.cabeca {
     top: 20px;
     left: 50%;
-    transform: translertx(-50%);
+    transform: translateX(-50%);
     width: 40px;
     height: 40px;
-    border-radius:50%
+    border-radius: 50%;
 }
 .corpo {
     top: 70px;
     left: 50%;
-    transform:10px;
+    transform: translateX(-50%);
     width: 10px;
     height: 50px;
 }
-
-
 .braco-esquerdo {
     top: 70px;
     left: calc(50% - 25px);
@@ -47,24 +45,20 @@
     height: 10px;
     transform: rotate(-45deg);
 }
-
-
-
-
 .perna-esquerda {
-     top: 125px;
-     left: calc(50% - 5px);
-     width: 30px;
-     height: 10px;
-     transform: rotate(45px);
+    top: 125px;
+    left: calc(50% - 5px);
+    width: 30px;
+    height: 10px;
+    transform: rotate(45deg);
 }
 .perna-direita {
-     top: 125px;
-     left: calc(50% - 5px)
-     width: 30px;
-     height: 10px
-     transform: rotate(-45px);
+    top: 125px;
+    right: calc(50% - 5px);
+    width: 30px;
+    height: 10px;
+    transform: rotate(-45deg);
 }
 .oculto {
-     dispay: none;
+    display: none;
 }
